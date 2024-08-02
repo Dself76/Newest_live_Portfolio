@@ -346,6 +346,14 @@ body {
 
 .services-content p {
     margin: .2rem 0 .8rem;
+    display: -webkit-box;
+    -webkit-line-clamp:5;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    
+}
+.services-content p:hover {
+    overflow: auto; /* Show the scrollbar when hovered */
 }
 
 .services-content .btn {
