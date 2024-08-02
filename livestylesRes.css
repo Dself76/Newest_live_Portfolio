@@ -1,0 +1,38 @@
+body {
+    
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #c3ba98;
+    color: #333;
+}
+
+header, section {
+    background: white;
+    padding: 20px;
+    margin-bottom: 10px;
+}
+
+h1, h2 {
+    color: #005
+}
+
+h2 {
+    font-family: "Papyrus", monospace; 
+}
+
+#homeButton {
+    position: absolute;
+    top: 5px;
+    left: 10px;
+    background-color: #c3ba98;
+    color: white;
+    padding: 10px 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+#homeButton:hover {
+    background-color: #e4c70a;
+}
